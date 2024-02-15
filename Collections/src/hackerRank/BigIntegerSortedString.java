@@ -1,4 +1,4 @@
-package hackerRank;
+package Collections.src.hackerRank;
 
 import java.math.BigInteger;
 import java.util.ArrayList;
@@ -11,6 +11,7 @@ import java.util.Scanner;
 public class BigIntegerSortedString {
 
 	public static void main(String[] args) {
+		//new changes added
 		Scanner sc = new Scanner(System.in);
 		int maxinputs = sc.nextInt();
 		List<String> scores = new ArrayList<>();
@@ -18,7 +19,7 @@ public class BigIntegerSortedString {
 			scores.add(sc.next());
 		}
 		System.out.println(SolutionBigIntegerSortedString.bigSorting(scores));
-
+//new changes added
 	}
 
 }
@@ -35,16 +36,6 @@ class SolutionBigIntegerSortedString {
 		});
 		return unsorted;
 
-		List<BigInteger> number = new ArrayList<>();
-		List<String> s1 = new ArrayList<>();
-     	// Collections.sort(unsorted);
-		for (String s : unsorted) {
-			BigInteger b = new BigInteger(s);
-			s1.add(""+b);
-		}
-		Collections.sort(number);
-		Collections.reverse(number);
-		return s1;
 	}
 
 }
