@@ -1,4 +1,4 @@
-package hackerRank;
+package Collections.src.hackerRank;
 
 import java.math.BigInteger;
 import java.util.ArrayList;
@@ -36,16 +36,6 @@ class SolutionBigIntegerSortedString {
 		});
 		return unsorted;
 
-		List<BigInteger> number = new ArrayList<>();
-		List<String> s1 = new ArrayList<>();
-     	// Collections.sort(unsorted);
-		for (String s : unsorted) {
-			BigInteger b = new BigInteger(s);
-			s1.add(""+b);
-		}
-		Collections.sort(number);
-		Collections.reverse(number);
-		return s1;
 	}
 
 }
