@@ -11,6 +11,7 @@ import java.util.Scanner;
 public class BigIntegerSortedString {
 
 	public static void main(String[] args) {
+		//new changes added
 		Scanner sc = new Scanner(System.in);
 		int maxinputs = sc.nextInt();
 		List<String> scores = new ArrayList<>();
@@ -18,7 +19,7 @@ public class BigIntegerSortedString {
 			scores.add(sc.next());
 		}
 		System.out.println(SolutionBigIntegerSortedString.bigSorting(scores));
-
+//new changes added
 	}
 
 }
