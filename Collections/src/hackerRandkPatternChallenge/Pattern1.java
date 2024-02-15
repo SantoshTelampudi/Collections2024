@@ -14,14 +14,14 @@ import static java.util.stream.Collectors.toList;
 
 class Result {
 
-    /*
+    /*s
      * Complete the 'staircase' function below.
      *
      * The function accepts INTEGER n as parameter.
      *    *
      *   **
      *  ***  
-     */
+     */s
 
     public static void staircase(int n) {
     // Write your code here
